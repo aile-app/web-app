@@ -1,12 +1,14 @@
 {
-  "name": "template-vite-react-ts-tailwind",
-  "private": true,
-  "version": "0.0.0",
+  "name": "aile-web-app",
+  "license": "MIT",
+  "version": "0.1.0",
   "type": "module",
+  "packageManager": "pnpm@10.11.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "rm -f pnpm-workspace.yaml"
   },
   "dependencies": {
     "react": "18.3.1",
